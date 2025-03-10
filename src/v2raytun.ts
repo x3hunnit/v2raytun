@@ -1,5 +1,5 @@
 import { showToast } from "@raycast/api";
-import { showFailureToast } from "@raycast/utils"
+import { showFailureToast } from "@raycast/utils";
 import { exec } from "child_process";
 
 export default function main() {
