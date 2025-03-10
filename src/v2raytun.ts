@@ -6,14 +6,14 @@ export default function main() {
     if (error) {
       showToast({
         style: Toast.Style.Failure,
-        title: "Ошибка подключения",
+        title: "Connection failed", 
         message: error.message,
       });
       return;
     }
     showToast({
       style: Toast.Style.Success,
-      title: "VPN подключен",
+      title: "VPN Connected",
       message: response,
     });
   });
